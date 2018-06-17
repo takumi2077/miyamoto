@@ -636,6 +636,8 @@ function setUp() {
       .atHour(22)
       .create();
   }
+
+  global_settings.set('version', "20141027.0");
 };
 
 /* バージョンアップ処理を行う */
